@@ -1,0 +1,179 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain1"
+    android:orientation="horizontal"
+    android:screenOrientation="landscape"
+    tools:context="com.belu.aneasywaytolearnenglish.Menu_Kindergarden">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:src="@drawable/back"
+                    android:background="@drawable/transparente"
+                    android:id="@+id/img_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/MenKind_tvinstrucciones"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView7" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/city192"
+                    android:background="@drawable/transparente"
+                    android:id="@+id/imb_menu_more_e1" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/transparente"
+                    android:src="@drawable/house192"
+                    android:id="@+id/imb_menu_more_e2" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="40dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="City"
+                    android:id="@+id/textView1"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="30dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="House"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/body1921"
+                    android:background="@drawable/transparente"
+                    android:id="@+id/imb_menu_more_e3" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/transparente"
+                    android:src="@drawable/animal192"
+                    android:id="@+id/imb_menu_more_e4" />
+            </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight=".5">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Human Body"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="40dp"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Animals"
+                        android:textColor="@android:color/white"
+                        android:id="@+id/textView4" />
+                </TableRow>
+
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/ocup192"
+                    android:background="@drawable/transparente"
+                    android:id="@+id/imb_menu_more_e5" />
+
+                </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="40dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="People"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView6" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</TableLayout>

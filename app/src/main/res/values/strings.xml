@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">An Easy Way to Learn English</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="MenPrin_1">Kindergarten</string>
+    <string name="MenPrin_2">Elementary</string>
+    <string name="MenPrin_3">More Exercises</string>
+    <string name="title_activity_menu__kindergarden">Menu Kindergarden</string>
+    <string name="MenKind_tvinstrucciones">Select an image to  begin</string>
+    <string name="MenKind_color">Colors</string>
+    <string name="MenKind_num">Numbers</string>
+    <string name="MenKind_letras">Letters</string>
+    <string name="Dialog_tilte">Colors</string>
+    <string name="Dialog_Read">Read</string>
+    <string name="Dialog_Exercise">Exercise</string>
+
+</resources>

@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:screenOrientation="landscape"
+    android:background="@drawable/bgmain1"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalScrollView"
+        android:layout_gravity="left|top" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/back"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/transparente"
+                    android:id="@+id/imb_elem_back" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_margin="15dp"
+                    android:text="Select an image to begin"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/tv_elem_inst" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/colors192"
+                    android:background="@drawable/transparente"
+                    android:id="@+id/imb_elem_menu1" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/transparente"
+                    android:src="@drawable/numbers192"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_elem_menu2" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Colors"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView9" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Numbers"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView10" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/letters192"
+                    android:background="@drawable/transparente"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_elem_menu3" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/house192"
+                    android:background="@drawable/transparente"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_elem_menu4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Letters"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView28" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"
+                    android:textColor="@android:color/white"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="House"
+                    android:id="@+id/textView29" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/body1921"
+                    android:background="@drawable/transparente"
+                    android:id="@+id/imb_elem_menu5" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ocup192"
+                    android:background="@drawable/transparente"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_elem_menu6" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Human Body"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView14" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="People"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView15" />
+           </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/animal192"
+                    android:background="@drawable/transparente"
+                    android:id="@+id/imb_elem_menu7" />
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/city192"
+                    android:background="@drawable/transparente"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_elem_menu8" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Animals"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView16" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="50dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="City"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView17" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</FrameLayout>

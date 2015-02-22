@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:screenOrientation="landscape"
+    android:background="@drawable/bgmain1"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalScrollView"
+        android:layout_gravity="left|top" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/num1"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_Kind_Read_1" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/num2"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_Kind_Read_2" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/num3"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_Kind_Read_3" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/num4"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_Kind_Read_4" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/num5"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_Kind_Read_5" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="One"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView9" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Two"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView10" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Three"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView11" />
+                <TextView
+                android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Four"
+                    android:textColor="@android:color/white"
+                android:id="@+id/textView12" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Five"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView13" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/num6"
+                    android:id="@+id/imb_Kind_Read_6" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/num7"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_Kind_Read_7" />
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/num8"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_Kind_Read_8" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/num9"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imb_Kind_Read_9" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/num10"
+                    android:id="@+id/imb_Kind_Read_10" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Six"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView14" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Seven"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView15" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Eight"
+                    android:layout_margin="5dp"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView16" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Nine"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView17" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Ten"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/textView18" />
+            </TableRow>
+
+        </TableLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>
